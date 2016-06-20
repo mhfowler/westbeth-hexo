@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 #url: http://getparseltongue.com
 url: http://maxfowler.net
-root: /
+root: /notes-from-sfpc/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -71,9 +71,17 @@ theme: brutalist
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:mhfowler/westbeth-hexo.git
+  repo: git@github.com:mhfowler/notes-from-sfpc.git
   branch: gh-pages
   message: deploytogit
+
+# rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+
 
 plugins:
 #- hexo-generator-cname
