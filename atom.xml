@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Hexo Demo</title>
   <subtitle>brutalist blog</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/notes-from-sfpc/atom.xml" rel="self"/>
   
   <link href="http://maxfowler.net/"/>
   <updated>2016-06-20T05:16:57.000Z</updated>
